@@ -1,0 +1,10 @@
+<script scr="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script>
+  $.get('https://www.zerocho.com/api/get')
+    .done((data) => {
+      console.log(data);
+    })
+    .fail((error) => {
+      console.error(error);
+    })
+</script>
